@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChaloChale</title>
+
+  <script src="https://kit.fontawesome.com/5c532d7eb2.js"
+    crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow py-3"
+       data-bs-theme="dark" aria-label="Main navigation">
+
+    <div class="container-fluid px-4">
+
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold fs-4"
+         href="index.html">
+        <i class="fa-solid fa-plane-departure text-warning"></i>
+        ChaloChale
+      </a>
+
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#mainMenu"
+        aria-controls="mainMenu" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainMenu">
+
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+
+          <li class="nav-item">
+            <a class="nav-link active px-lg-3"
+               aria-current="page" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link px-lg-3"
+               href="Destinations.html">Destinations</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link px-lg-3"
+               href="Packages.html">Packages</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link px-lg-3"
+               href="Bookings.html">Bookings</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link px-lg-3"
+               href="Contact.html">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="d-flex gap-2 justify-content-center mb-2 mb-lg-0">
+          <a href="Login.html"
+             class="btn btn-outline-light rounded-pill px-4">
+            Log in
+          </a>
+
+          <a href="Signup.html"
+             class="btn btn-warning rounded-pill px-4 fw-semibold">
+            Sign up
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Image Carousel -->
+  <section class="container-fluid px-3 px-md-4 py-4">
+
+    <div id="carouselStacked"
+         class="carousel slide carousel-fade"
+         data-bs-ride="carousel"
+         data-bs-interval="3000">
+
+      <!-- Carousel Heading and Controls -->
+      <div class="d-flex justify-content-between align-items-center mb-3">
+
+        <h4 class="fw-bold mb-0">Explore the World</h4>
+
+        <div class="d-flex gap-2">
+          <button class="btn btn-dark rounded-circle"
+                  type="button"
+                  data-bs-target="#carouselStacked"
+                  data-bs-slide="prev"
+                  aria-label="Previous image">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+
+          <button class="btn btn-warning rounded-circle"
+                  type="button"
+                  data-bs-target="#carouselStacked"
+                  data-bs-slide="next"
+                  aria-label="Next image">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Images -->
+      <div class="carousel-inner rounded-4 shadow">
+
+        <div class="carousel-item active">
+          <img src="https://images.pexels.com/photos/887828/pexels-photo-887828.jpeg"
+               class="d-block w-100"
+               alt="Travel destination"
+               style="height: 450px; object-fit: cover;">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="fw-bold">Discover Beautiful Places</h2>
+            <p>Explore new destinations with ChaloChale.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/984862/pexels-photo-984862.jpeg"
+               class="d-block w-100"
+               alt="Beautiful holiday destination"
+               style="height: 450px; object-fit: cover;">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="fw-bold">Your Next Adventure</h2>
+            <p>Make every journey memorable.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/12587136/pexels-photo-12587136.jpeg"
+               class="d-block w-100"
+               alt="Scenic travel destination"
+               style="height: 450px; object-fit: cover;">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="fw-bold">Travel Without Limits</h2>
+            <p>Find your perfect holiday destination.</p>
+          </div>
+        </div>
+
+      </div>
+
+         <!-- Carousel Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselStacked"
+          data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+
+        <button type="button" data-bs-target="#carouselStacked"
+          data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+        <button type="button" data-bs-target="#carouselStacked"
+          data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+  </section>
+
+  <div class="row">
+    <div class="col-md-12">
+      <!-- Service Section is start -->
+      <div>
+<section class="py-5 bg-light">
+  <h2 class="text-center fw-bold mb-4">Why choose ChaloChale</h2>
+  <div class="row text-center">
+    <div class="container text-center">
+  <div class="row align-items-end">
+    <div class="col-md-4 md-4">
+        <i class="fa-solid fa-plane fa-3x text-primary mb-3"></i>
+      <h5 class="fw-bold">Easy booking</h5>
+      <p>Book Travel Packages quickly with our simple booking</p>
+    </div>
+    <div class="col-md-4 md-4">
+        <i class="fa-solid fa-hotel fa-3x text-success mb-3"></i>
+     <h5 class="fw-bold">Best Hotels</h5>
+     <p>We provide comfortable hotel at affortable prizes</p>
+    </div>
+    <div class="col-md-4 md-4">
+        <i class="fa-solid fa-headphones fa-3x text-warning mb-3"></i>
+    
+        <h5 class="fw-bold"> 24/7 Support</h5>
+        <p>Our travel support team available anytime for assistance</p>
+
+     
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Destination Section -->
+   <section class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Popular Destination</h2>
+    
+
+      <div class="row" style="padding-left: 200px " style="gap: 15px">
+
+        <!-- Card-1 -->
+        <section class="card" style="max-width: 320px">
+  <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h4 class="card-title">Agra</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</section>
+
+ <!-- Card-2 -->
+
+  <section class="card" style="max-width: 320px" >
+  <img src="https://images.unsplash.com/photo-1585914285280-72bae40d4b3a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h4 class="card-title">Sikkim</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</section>
+
+<!-- card-3 -->
+
+ <section class="card" style="max-width: 320px">
+  <img src="https://images.unsplash.com/photo-1706790574525-d218c4c52b5c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h4 class="card-title">Odisha</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</section>
+
+      </div>
+    </div>
+   </section>
+
+   <!-- Featured Packages -->
+
+   <section id="travel" class="py-5 bg-white">
+        <div class="container">
+          <div class="text-center mb-4">
+            <p class="text-warning fw-semibold text-uppercase mb-2">Make the journey yours</p>
+            <h2 class="fw-bold">Travel your way</h2>
+            <p class="text-secondary mb-0">Choose the kind of trip you want to take. We’ll help with the rest.</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-4">
+              <article class="card h-100 border-0 shadow-sm text-center p-4">
+                <i class="fa-solid fa-train fa-2x text-warning mb-3" aria-hidden="true"></i>
+                <h3 class="h5 fw-bold">Scenic train trips</h3>
+                <p class="text-secondary mb-0">Sit back, enjoy the views, and discover destinations at a relaxed pace.</p>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="card h-100 border-0 shadow-sm text-center p-4">
+                <i class="fa-solid fa-car-side fa-2x text-warning mb-3" aria-hidden="true"></i>
+                <h3 class="h5 fw-bold">Road adventures</h3>
+                <p class="text-secondary mb-0">Take the scenic route with flexible stops and memorable local experiences.</p>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="card h-100 border-0 shadow-sm text-center p-4">
+                <i class="fa-solid fa-plane fa-2x text-warning mb-3" aria-hidden="true"></i>
+                <h3 class="h5 fw-bold">Fly and explore</h3>
+                <p class="text-secondary mb-0">Get away sooner with convenient trips planned around your schedule.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="packages" class="py-5 bg-light">
+        <div class="container">
+          <div class="text-center mb-4">
+            <p class="text-warning fw-semibold text-uppercase mb-2">Plan within your budget</p>
+            <h2 class="fw-bold">Travel packages &amp; prices</h2>
+            <p class="text-secondary mb-0">Pick a starting point for your next getaway. Prices are per person.</p>
+          </div>
+
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+              <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4 d-flex flex-column">
+                  <span class="badge text-bg-warning align-self-start mb-3">2 nights / 3 days</span>
+                  <h3 class="h4 fw-bold">Weekend Escape</h3>
+                  <p class="text-secondary">A refreshing short break with comfortable stays and sightseeing.</p>
+                  <p class="mt-auto mb-3"><span class="fs-3 fw-bold">₹7,999</span><span class="text-secondary"> / person</span></p>
+                  <a href="Bookings.html" class="btn btn-outline-dark rounded-pill">Book this package</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="card h-100 border-warning shadow">
+                <div class="card-body p-4 d-flex flex-column">
+                  <span class="badge text-bg-warning align-self-start mb-3">5 nights / 6 days</span>
+                  <h3 class="h4 fw-bold">Cultural Explorer</h3>
+                  <p class="text-secondary">See iconic landmarks, taste regional food, and experience local culture.</p>
+                  <p class="mt-auto mb-3"><span class="fs-3 fw-bold">₹14,999</span><span class="text-secondary"> / person</span></p>
+                  <a href="Bookings.html" class="btn btn-warning rounded-pill fw-semibold">Book this package</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4 d-flex flex-column">
+                  <span class="badge text-bg-warning align-self-start mb-3">6 nights / 7 days</span>
+                  <h3 class="h4 fw-bold">Mountain Adventure</h3>
+                  <p class="text-secondary">Enjoy mountain scenery, guided outdoor activities, and a cozy stay.</p>
+                  <p class="mt-auto mb-3"><span class="fs-3 fw-bold">₹19,999</span><span class="text-secondary"> / person</span></p>
+                  <a href="Bookings.html" class="btn btn-outline-dark rounded-pill">Book this package</a>
+                </div>
+              </article>
+            </div>
+          </div>
+          <p class="small text-secondary text-center mt-4 mb-0">Starting prices are indicative and may vary by dates, availability, and selected options.</p>
+        </div>
+      </section>
+
+      <footer id="contact" class="bg-dark text-light pt-5 pb-3">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md-5">
+              <a class="text-decoration-none text-light fw-bold fs-4" href="index.html">
+                <i class="fa-solid fa-plane-departure text-warning me-2" aria-hidden="true"></i>ChaloChale
+              </a>
+              <p class="text-white-50 mt-3 mb-0">Thoughtful trips, memorable journeys. Let’s find your next place to explore.</p>
+            </div>
+            <div class="col-6 col-md-3">
+              <h2 class="h6 fw-bold">Explore</h2>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a class="link-light link-underline-opacity-0" href="#travel">Travel options</a></li>
+                <li class="mb-2"><a class="link-light link-underline-opacity-0" href="#packages">Packages &amp; prices</a></li>
+                <li><a class="link-light link-underline-opacity-0" href="Destinations.html">Destinations</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4">
+              <h2 class="h6 fw-bold">Get in touch</h2>
+              <p class="text-white-50 mb-2">Ready to plan your next trip?</p>
+              <a class="link-warning" href="Contact.html">Contact ChaloChale</a>
+            </div>
+          </div>
+          <hr class="border-secondary my-4">
+          <p class="small text-white-50 text-center mb-0">&copy; 2026 ChaloChale. All rights reserved.</p>
+        </div>
+      </footer>
+
+   
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
